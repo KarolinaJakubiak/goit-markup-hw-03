@@ -15,6 +15,10 @@ body {
 ul {
     list-style-type: none;
 }
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .logo-dark {
     font-family: raleway;
     color: var(--almost-black);
@@ -241,4 +245,8 @@ ul {
     flex-basis: calc((100%-30px) / 3);
     padding-left: 15px;
     padding-right: 15px;
+}
+.frame {
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
