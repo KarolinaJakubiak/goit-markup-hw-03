@@ -9,15 +9,15 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--almost-black);
-    width: 1600px;
+    width: 100%;
+    max-width: 1600px;
     margin: 0;
 }
 ul {
     list-style-type: none;
 }
 section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-block: 94px;
 }
 .logo-dark {
     font-family: raleway;
@@ -115,6 +115,8 @@ section {
     text-align: center;
     margin-left: 624px;
     margin-right: 624px;
+    padding-top: 106px;
+    padding-bottom: 50px;
 }
 .grey {
     background-color: var(--almost-white);
@@ -194,25 +196,30 @@ section {
     vertical-align: top;
     text-align: left;
 }
-.top-page-left {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-.top-page-center {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
+.flex-container {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
-.top-page-right {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
+.header-line {
+    border-bottom: #ececec solid 1px;
 }
-
+.flex-logo {
+    display: flex;
+    align-items: center;
+}
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.flex-adress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
 .container {
     width: 1200px;
     margin-inline: auto;
@@ -240,6 +247,9 @@ section {
     flex-wrap: nowrap;
     gap: 30px;
     padding: 0;
+}
+.specialty-pics:last-child {
+    margin: unset;
 }
 .specialty-item {
     flex-basis: calc((100%-30px) / 3);
