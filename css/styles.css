@@ -16,6 +16,10 @@ body {
 ul {
     list-style-type: none;
 }
+h4 {
+    margin: 0 auto;
+}
+
 section {
     padding-block: 94px;
 }
@@ -305,4 +309,5 @@ section {
 .bottom-frame {
     padding-left: 24px;
     border: 1px solid #eeeeee;
+    border-top: none;
 }
