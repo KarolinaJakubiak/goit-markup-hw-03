@@ -9,8 +9,8 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--almost-black);
-    width: 100%;
-    max-width: 1600px;
+    width: 1600px;
+    max-width: 100%;
     margin: 0;
 }
 ul {
@@ -61,7 +61,11 @@ section {
 }
 .background {
     background-color: var(--dark-grey);
-    padding: 200px 452px 280px 452px;
+    padding: 200px 252px 280px 252px;
+}
+.background-bottom {
+    background-color: var(--dark-grey);
+    width: 1600px;
 }
 .text-content {
     color: var(--snow);
@@ -72,6 +76,7 @@ section {
     vertical-align: top;
     text-align: center;
     margin-inline: auto;
+    width: 696px;
 }
 .order-service {
     background-color: var(--brand-color);
@@ -88,7 +93,7 @@ section {
     vertical-align: top;
     text-align: center;
     padding: 10px 41px 10px 42px;
-    margin-left: 250px;
+    margin-left: 500px;
 }
 .title-style {
     font-size: 14px;
@@ -115,7 +120,6 @@ section {
     text-align: center;
     margin-left: 624px;
     margin-right: 624px;
-    padding-top: 106px;
     padding-bottom: 50px;
 }
 .grey {
@@ -145,6 +149,8 @@ section {
     letter-spacing: 3%;
     vertical-align: top;
     text-align: left;
+    padding-top: 20px;
+    width: 246px;
 }
 .link-footer {
     color: var(--snow);
@@ -236,7 +242,8 @@ section {
     display: flex;
     flex-wrap: nowrap;
     gap: 30px;
-    padding: 0;
+    padding: auto;
+    width: 1170px;
 }
 .item {
     flex-basis: calc((100%-30px) / 4);
@@ -252,7 +259,7 @@ section {
     box-sizing: border-box;
     display: flex;
     flex-wrap: nowrap;
-    gap: 30px;
+    gap: 33px;
     padding: 0;
 }
 .specialty-pics:last-child {
@@ -266,4 +273,34 @@ section {
 .frame {
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    padding: 0;
+}
+.logo-bottom {
+    padding: 60px 1240px 161px 215px;
+}
+.phone-bottom {
+    padding-bottom: 60px;
+}
+.menu {
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+    gap: 8px;
+}
+.buttom-item {
+    justify-content: space-between;
+    align-items: space-around;
+}
+.menu-set {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1200px;
+    padding: 0;
+}
+.item-set {
+    flex-basis: calc((100%-60px) / 3);
+}
+.bottom-frame {
 }
