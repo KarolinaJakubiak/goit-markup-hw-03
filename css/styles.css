@@ -11,7 +11,7 @@ body {
     color: var(--almost-black);
     width: 1600px;
     max-width: 100%;
-    margin: 0;
+    margin: 0 auto;
 }
 ul {
     list-style-type: none;
@@ -75,8 +75,8 @@ section {
     letter-spacing: 6%;
     vertical-align: top;
     text-align: center;
-    margin-inline: auto;
     width: 696px;
+    padding-left: 252px;
 }
 .order-service {
     background-color: var(--brand-color);
@@ -193,7 +193,6 @@ section {
     letter-spacing: 6%;
     vertical-align: top;
     text-align: left;
-    padding: 0px 24px 20px 24px;
 }
 .project-type {
     color: var(--mouse);
@@ -304,7 +303,6 @@ section {
     flex-basis: calc((100%-60px) / 3);
 }
 .bottom-frame {
-    padding-block: 20px;
     padding-left: 24px;
     border: 1px solid #eeeeee;
 }
