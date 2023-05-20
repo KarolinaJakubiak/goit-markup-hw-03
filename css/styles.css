@@ -193,6 +193,7 @@ section {
     letter-spacing: 6%;
     vertical-align: top;
     text-align: left;
+    padding: 0px 24px 20px 24px;
 }
 .project-type {
     color: var(--mouse);
@@ -235,7 +236,7 @@ section {
 }
 .container {
     width: 1200px;
-    margin-inline: auto;
+    margin: 0 auto;
 }
 .card-set {
     box-sizing: border-box;
@@ -303,4 +304,7 @@ section {
     flex-basis: calc((100%-60px) / 3);
 }
 .bottom-frame {
+    padding-block: 20px;
+    padding-left: 24px;
+    border: 1px solid #eeeeee;
 }
