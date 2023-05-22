@@ -266,7 +266,6 @@ section {
 }
 .menu {
     display: flex;
-    align-items: space-around;
     justify-content: center;
     gap: 8px;
 }
