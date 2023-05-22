@@ -80,9 +80,9 @@ section {
     line-height: 1, 4;
     letter-spacing: 6%;
     vertical-align: top;
-    text-align: center;
     width: 696px;
-    padding-left: 252px;
+    text-align: center;
+    margin-left: 352px;
 }
 .order-service {
     background-color: var(--brand-color);
@@ -99,7 +99,7 @@ section {
     vertical-align: top;
     text-align: center;
     padding: 10px 41px 10px 42px;
-    margin-left: 500px;
+    margin-left: 600px;
 }
 .title-style {
     font-size: 14px;
