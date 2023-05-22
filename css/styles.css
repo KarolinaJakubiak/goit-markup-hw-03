@@ -65,11 +65,10 @@ section {
 }
 .background {
     background-color: var(--dark-grey);
-    padding: 200px 252px 280px 252px;
+    padding: 200px 252px 200px 252px;
 }
 .background-bottom {
     background-color: var(--dark-grey);
-    width: 1600px;
     margin: 0 auto;
     height: 192px;
     padding-top: 60px;
@@ -129,7 +128,6 @@ section {
 }
 .grey {
     background-color: var(--almost-white);
-    width: 1600px;
     margin: 0 auto;
 }
 .name {
@@ -216,8 +214,6 @@ section {
     justify-content: space-between;
     align-items: center;
     height: 78px;
-}
-.header-line {
     border-bottom: #ececec solid 1px;
 }
 
@@ -244,30 +240,25 @@ section {
     margin: 0 auto;
 }
 .card-set {
-    box-sizing: border-box;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    width: 1170px;
 }
 .item {
-    padding: 15px;
     background-color: var (snow);
+    justify-content: space-between;
 }
 
 .specialty-pics {
-    box-sizing: border-box;
     display: flex;
+    justify-content: space-between;
     flex-wrap: nowrap;
     padding: 0;
 }
 .specialty-pics:last-child {
     margin: unset;
 }
-.specialty-item {
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 .frame {
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
@@ -281,16 +272,13 @@ section {
 }
 .buttom-item {
     justify-content: space-between;
-    align-items: space-around;
 }
 .menu-set {
-    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    align-items: space-around;
+    align-items: space-between;
     flex-wrap: wrap;
     gap: 30px;
-    padding: 0;
 }
 .bottom-frame {
     padding-left: 24px;
