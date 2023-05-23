@@ -73,6 +73,12 @@ section {
     height: 192px;
     padding-top: 60px;
 }
+.container-black {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .text-content {
     color: var(--snow);
     font-size: 44px;
@@ -80,9 +86,7 @@ section {
     line-height: 1, 4;
     letter-spacing: 6%;
     vertical-align: top;
-    width: 696px;
     text-align: center;
-    margin-left: 352px;
 }
 .order-service {
     background-color: var(--brand-color);
@@ -99,7 +103,7 @@ section {
     vertical-align: top;
     text-align: center;
     padding: 10px 41px 10px 42px;
-    margin-left: 600px;
+    margin: 30px 400px 200px 1000px;
 }
 .title-style {
     font-size: 14px;
@@ -186,6 +190,7 @@ section {
     letter-spacing: 3%;
     vertical-align: top;
     text-align: center;
+    border-radius: 4px;
 }
 .button-design:hover,
 .button-design:focus,
@@ -214,9 +219,10 @@ section {
     justify-content: space-between;
     align-items: center;
     height: 78px;
+}
+.bottom-line {
     border-bottom: #ececec solid 1px;
 }
-
 .flex-nav {
     display: flex;
     align-items: center;
@@ -243,6 +249,7 @@ section {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    background-color: var (snow);
 }
 .item {
     background-color: var (snow);
@@ -269,7 +276,7 @@ section {
     justify-content: center;
     gap: 8px;
 }
-.buttom-item {
+.button-item {
     justify-content: space-between;
 }
 .menu-set {
