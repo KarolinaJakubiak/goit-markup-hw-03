@@ -222,7 +222,7 @@ section {
     height: 78px;
 }
 .bottom-line {
-    border-bottom: var(--light) solid 1px;
+    border: var(--light) solid 1px;
 }
 .flex-nav {
     display: flex;
@@ -250,7 +250,6 @@ section {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    background-color: var(--snow);
 }
 .item {
     background-color: var(--snow);
